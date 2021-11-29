@@ -1,0 +1,15 @@
+.banner{
+    background-image: url('../../images/cover.jpg');
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+.banner-cover{
+    background-color: rgba(0, 0, 0, 0.788);
+    color: white;
+    height: 550px;
+    width: 100%;
+}
+.size{
+    font-size:60px;
+}
