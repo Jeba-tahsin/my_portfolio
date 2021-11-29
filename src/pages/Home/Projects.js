@@ -5,7 +5,7 @@ import advanture from '../../images/advanture.PNG';
 
 const Projects = () => {
     return (
-        <div className='container'>
+        <div className='container' id='projects'>
             <h1>My Projects</h1>
            <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">

@@ -27,10 +27,10 @@ const Header = () => {
               <a class="nav-link" href="#">
                 About
               </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="service">
                 Service
               </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="projects">
                 Projects
               </a>
               <a class="nav-link" href="#">
