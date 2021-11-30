@@ -2,6 +2,7 @@ import React from 'react';
 import blood from '../../images/blood.PNG'; 
 import pottery from '../../images/pottery.PNG'; 
 import advanture from '../../images/advanture.PNG'; 
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
@@ -20,6 +21,7 @@ const Projects = () => {
                     <div>
                     <a href="https://red-cross-6853e.web.app/"><button className='btn btn-info mt-4'>View Website</button></a>
                     </div>
+                      <Link to='/bloodDetails'><button className='btn btn-info m-2'>View Details</button></Link>
                     </div>
                 </div>
                 <div class="col">

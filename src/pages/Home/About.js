@@ -2,9 +2,9 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div>
+        <div className='container' id='about'>
             <h1>About</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vitae alias, cumque reiciendis sunt quibusdam quia voluptas a incidunt harum aliquid asperiores rerum praesentium maiores itaque nulla quam ratione et dolores animi libero. Reiciendis debitis, expedita culpa rem error sit esse possimus praesentium quidem aspernatur voluptate exercitationem. Laboriosam sunt quaerat quibusdam dicta in earum, praesentium quisquam dolores ratione qui corporis velit similique ipsum nesciunt ex architecto voluptatum labore accusantium voluptates vitae tenetur maxime. Minima dolor ad eveniet fugit iure molestias quidem. Veniam animi sint molestias cumque illum adipisci expedita delectus voluptatem repellendus temporibus doloribus commodi, magni voluptatum aspernatur, facere nobis?</p>
+            <p>Hello and thanks for visiting my profile. I am a Web Developer and mostly I am passionate on web coding. I’m quite expert in using markup languages like: Hypertext markup language (HTML),Cascading Style Sheet(CSS),JavaScript.I have completed my graduation in Computer Science Engineering and also done many courses related to web development, coding, and designing. </p>
         </div>
     );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -21,22 +22,25 @@ const Header = () => {
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">
+              <Link class="nav-link active" aria-current="page" to="/home">
                 Home
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <a class="nav-link" href="#about">
                 About
               </a>
-              <a class="nav-link" href="service">
+              <a class="nav-link" href="#service">
                 Service
               </a>
-              <a class="nav-link" href="projects">
+              <a class="nav-link" href="#projects">
                 Projects
               </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#education">
                 Education
               </a>
-              <a class="nav-link" href="#">
+              <Link class="nav-link" to="/blog">
+                Blog
+              </Link>
+              <a class="nav-link" href="#contact">
                 Contact
               </a>
               
