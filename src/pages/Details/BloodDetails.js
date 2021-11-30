@@ -34,6 +34,10 @@ const BloodDetails = () => {
                 </div>
 
             </div>
+
+            <div>
+                    <a href="https://red-cross-6853e.web.app/"><button className='btn btn-info mt-4'>Review</button></a>
+                    </div>
         </div>
     );
 };

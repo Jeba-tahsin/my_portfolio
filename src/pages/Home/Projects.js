@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
     return (
         <div className='container' id='projects'>
-            <h1 className='mb-3 mt-5'>My Projects</h1>
+            <h1 className='mb-4 mt-5'>My Projects</h1>
            <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
                 <div class="col">
                     <div class="card">

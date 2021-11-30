@@ -34,6 +34,10 @@ const TourismDetails = () => {
             </div>
 
         </div>
+
+        <div>
+                    <a href="https://assignment-11-da68c.web.app/"><button className='btn btn-info mt-4'>Review</button></a>
+                    </div>
     </div>
     );
 };

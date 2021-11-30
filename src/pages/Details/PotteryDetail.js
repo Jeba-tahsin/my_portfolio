@@ -34,6 +34,10 @@ const PotteryDetail = () => {
                 </div>
 
             </div>
+
+            <div>
+                    <a href="https://pottery-12214.web.app/"><button className='btn btn-info mt-4'>Review</button></a>
+                    </div>
         </div>
     );
 };

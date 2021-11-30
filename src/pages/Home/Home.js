@@ -11,8 +11,8 @@ const Home = () => {
             
             <Banner></Banner>
             <About></About>
-            <Service></Service>
             <Projects></Projects>
+            <Service></Service>
             <Contact></Contact>
         </div>
     );
