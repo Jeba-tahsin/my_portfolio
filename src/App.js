@@ -2,6 +2,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Blog from './pages/Blog/Blog';
 import BloodDetails from './pages/Details/BloodDetails';
+import PotteryDetail from './pages/Details/PotteryDetail';
+import TourismDetails from './pages/Details/TourismDetails';
 import Header from './pages/Home/Header';
 import Home from './pages/Home/Home';
 
@@ -22,6 +24,12 @@ function App() {
         </Route>
         <Route path='/bloodDetails'>
           <BloodDetails></BloodDetails>
+        </Route>
+        <Route path='/potteryDetail'>
+          <PotteryDetail></PotteryDetail>
+        </Route>
+        <Route path='/tourismDetails'>
+           <TourismDetails></TourismDetails>
         </Route>
         </Switch>
       </BrowserRouter>

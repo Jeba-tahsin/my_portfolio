@@ -7,12 +7,12 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
     return (
         <div className='container' id='projects'>
-            <h1>My Projects</h1>
-           <div class="row row-cols-1 row-cols-md-3 g-4">
+            <h1 className='mb-3 mt-5'>My Projects</h1>
+           <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
                 <div class="col">
                     <div class="card">
                     <div>
-                    <img src={blood} class="card-img-top img-fluid image" alt="..."/>
+                    <img src={blood} class="card-img-top img-fluid " alt="..."/>
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Red Cross</h5>
@@ -27,7 +27,7 @@ const Projects = () => {
                 <div class="col">
                     <div class="card">
                     <div>
-                    <img src={pottery} class="card-img-top img-fluid image" alt="..."/>
+                    <img src={pottery} class="card-img-top img-fluid " alt="..."/>
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Pottery</h5>
@@ -36,12 +36,13 @@ const Projects = () => {
                     <div>
                     <a href="https://pottery-12214.web.app/"><button className='btn btn-info mt-4'>View Website</button></a>
                     </div>
+                    <Link to='/potteryDetail'><button className='btn btn-info m-2'>View Details</button></Link>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
                     <div>
-                    <img src={advanture} class="card-img-top img-fluid image" alt="..."/>
+                    <img src={advanture} class="card-img-top img-fluid " alt="..."/>
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Advanture</h5>
@@ -50,6 +51,7 @@ const Projects = () => {
                     <div>
                     <a href="https://assignment-11-da68c.web.app/"><button className='btn btn-info mt-4'>View Website</button></a>
                     </div>
+                    <Link to='/tourismDetails'><button className='btn btn-info m-2'>View Details</button></Link>
                     </div>
                 </div>
             </div>

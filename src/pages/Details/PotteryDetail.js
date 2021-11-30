@@ -3,7 +3,7 @@ import banner from '../../images/blood.PNG';
 import bloodLogin from '../../images/bloodLogin.PNG';
 import bloodService from '../../images/bloodService.PNG';
 
-const BloodDetails = () => {
+const PotteryDetail = () => {
     return (
         <div className='container'>
             <h1>Blood bank details</h1>
@@ -38,4 +38,4 @@ const BloodDetails = () => {
     );
 };
 
-export default BloodDetails;
+export default PotteryDetail;
