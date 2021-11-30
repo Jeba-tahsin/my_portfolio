@@ -1,7 +1,7 @@
 import React from 'react';
-import tourismBanner from '../../images/blood.PNG';
-import tourismLogin from '../../images/bloodLogin.PNG';
-import tourismService from '../../images/bloodService.PNG';
+import tourismBanner from '../../images/advExp.PNG';
+import tourismLogin from '../../images/adv.PNG';
+import tourismService from '../../images/advService.PNG';
 
 const TourismDetails = () => {
     return (

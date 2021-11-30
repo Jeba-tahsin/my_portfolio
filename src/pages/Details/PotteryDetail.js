@@ -1,7 +1,7 @@
 import React from 'react';
-import banner from '../../images/blood.PNG';
-import bloodLogin from '../../images/bloodLogin.PNG';
-import bloodService from '../../images/bloodService.PNG';
+import pottery from '../../images/pottery.PNG';
+import potteryAbt from '../../images/potteryAbt.PNG';
+import potteryDash from '../../images/potteryDash.PNG';
 
 const PotteryDetail = () => {
     return (
@@ -12,7 +12,7 @@ const PotteryDetail = () => {
                 <div class="col">
                     <div class="card">
                     <div>
-                    <img src={banner} class="card-img-top img-fluid " alt="..."/>
+                    <img src={pottery} class="card-img-top img-fluid " alt="..."/>
                     </div>
                     </div>
                 </div>
@@ -20,7 +20,7 @@ const PotteryDetail = () => {
                 <div class="col">
                     <div class="card">
                     <div>
-                    <img src={bloodService} class="card-img-top img-fluid " alt="..."/>
+                    <img src={potteryAbt} class="card-img-top img-fluid " alt="..."/>
                     </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ const PotteryDetail = () => {
                 <div class="col">
                     <div class="card">
                     <div>
-                    <img src={bloodLogin} class="card-img-top img-fluid " alt="..."/>
+                    <img src={potteryDash} class="card-img-top img-fluid " alt="..."/>
                     </div>
                     </div>
                 </div>
